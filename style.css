@@ -1,9 +1,9 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
 }
 
-nav{
+nav {
     width: 100%;
     background-color: rgb(122, 122, 122);
     text-align: center;
@@ -11,18 +11,40 @@ nav{
     color: lavender;
 }
 
-.sec1{
+.sec1 {
     width: 80%;
     background-color: rgb(255, 226, 226);
     margin-left: auto;
     margin-right: auto;
-    
+    text-align: center;
+
+
 }
 
-.p1{
+.p1 {
     width: 30%;
     padding: 3px;
-    border: lightcoral solid 1px ;
+    border: lightcoral solid 1px;
     border-radius: 3px;
-    display: block;
+    display: inline-block;
+    height: 60px;
+}
+
+.div1 {
+    width: 100%;
+    background-color: rgb(241, 228, 106);
+    text-align: center;
+    margin: 0px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.div1 h3{
+    margin: 0px;
+}
+
+.imgg{
+    position: relative;
+    top: 80%;
+    border-radius: 100px;
+    border: 5px solid aliceblue;
 }
